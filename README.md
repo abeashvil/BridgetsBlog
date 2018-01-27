@@ -1,2 +1,2 @@
-# bridgetsblog.github.io
-n/a
+# Bridgets Blog
+Info to be included...
