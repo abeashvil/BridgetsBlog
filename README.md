@@ -1,3 +1,3 @@
 # Bridgets Blog
 Info to be included...
-https://BridgetsBlog.git.io
+https://BridgetsBlog.github.io
