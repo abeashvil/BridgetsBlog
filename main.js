@@ -5,6 +5,7 @@
 // wait for jquery to load before using $
 'use strict';
 $(function(){
+
 $("#blog_area1").html(localStorage.getItem("blog"));
 $("#blog_area").html(localStorage.getItem("blog2"));
 $("#textarea-1").html(localStorage.getItem("blog"));
@@ -38,7 +39,7 @@ $.mobile.navigate( "#main_page" ,  {transition:"pop"});
 
 
     let blogarea = $("#textarea-1").val();
-    let datearea = $("#date").val();
+    let datearea = moment().format('MMMM Do YYYY');
     localStorage.getItem("blog");
     localStorage.getItem("blog2");
 
@@ -58,6 +59,7 @@ $.mobile.navigate( "#main_page" ,  {transition:"pop"});
 
 
 
-
 });
+
+
 
